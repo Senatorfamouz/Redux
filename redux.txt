@@ -1,0 +1,10 @@
+Redux is a predictable state management library for JavaScript applications, commonly used with React (though it can work with any UI framework). It helps manage global state in a structured way, making state changes more transparent and easier to debug.
+
+Why Use Redux?
+Centralized State Management: Instead of passing props through multiple components, Redux stores the entire state in a single store.
+
+Predictable State Updates: State can only be modified through actions and reducers, ensuring consistency.
+
+Debugging & Time-Travel: Tools like Redux DevTools allow tracking every state change.
+
+Scalability: Works well for large applications with complex state logic.
