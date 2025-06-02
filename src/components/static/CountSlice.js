@@ -15,8 +15,9 @@ export const countSlice = createSlice({
    resetValue: (state) => {
       state.value = 100;
     },
-    
-   
+    increasebyAmount: (state, action) => {
+      state.value += action.payload;
+    },
   },
 });
 export const { increasebyten, decreasebyten, resetValue, increasebyAmount } = countSlice.actions;
